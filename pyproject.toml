@@ -1,0 +1,23 @@
+[project]
+name = "poetry-split-markers-test"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Wade", email = "wade@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.poetry]
+package-mode = false
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4,<9; python_version == '3.9'",
+    "pytest>=9,<10; python_version >= '3.10'",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

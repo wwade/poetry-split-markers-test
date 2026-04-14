@@ -2,15 +2,15 @@
 
 [[package]]
 name = "chardet"
-version = "5.0.0"
+version = "5.2.0"
 description = "Universal encoding detector for Python 3"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 groups = ["main"]
 markers = "python_version == \"3.9\""
 files = [
-    {file = "chardet-5.0.0-py3-none-any.whl", hash = "sha256:d3e64f022d254183001eccc5db4040520c0f23b1a3f33d6413e099eb7f126557"},
-    {file = "chardet-5.0.0.tar.gz", hash = "sha256:0368df2bfd78b5fc20572bb4e9bb7fb53e2c094f60ae9993339e8671d0afb8aa"},
+    {file = "chardet-5.2.0-py3-none-any.whl", hash = "sha256:e1cf59446890a00105fe7b7912492ea04b6e6f06d4b742b2c788469e34c82970"},
+    {file = "chardet-5.2.0.tar.gz", hash = "sha256:1b3b6ff479a8c414bc3fa2c0852995695c4a026dcd6d0633b2dd092ca39c1cf7"},
 ]
 
 [[package]]
@@ -285,4 +285,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9"
-content-hash = "e446519cc06818b9dc65ee5a089d6da64f1be3f48f1aca7cabbdcb6855840e26"
+content-hash = "9a965e4b5ff9a4b6f2d89ebab919b28a587d96a6c856e36a66eb1b439282fa2e"

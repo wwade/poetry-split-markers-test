@@ -5,9 +5,15 @@
   ],
   "recreateWhen": "always",
   "splitPythonMarkers": true,
+  "prHourlyLimit": 100,
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ]
     }
   ]
 }
